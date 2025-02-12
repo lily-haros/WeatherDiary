@@ -1,0 +1,28 @@
+{
+  "name": "weatherdiary",
+  "version": "1.0.0",
+  "description": "Weather diary app with db and basic crud operations",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Team 12",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "express-validator": "^7.0.1",
+    "moment": "^2.29.4",
+    "mongodb": "^5.4.0",
+    "mongoose": "^7.1.0",
+    "node-fetch": "^3.3.1"
+  }
+}

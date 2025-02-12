@@ -1,0 +1,212 @@
+/* Footer styles */
+
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  position: static;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1.5px solid black;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 75%;
+}
+
+.personaldiaryentry {
+  margin-top: 0px;
+}
+
+#comment {
+  width: 100%;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  color: white;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+  color: black;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.text-headings {
+  text-align: center;
+  color: black;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.info-text {
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.logo img {
+  max-height: 100px;
+  width: auto;
+}
+
+.btn-lg {
+  padding: 18px 30px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.btn-submit {
+  padding: 18px 30px;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.label-lg {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.input-lg {
+  padding: 28px 20px;
+  font-size: 18px;
+}
+
+.desc {
+  font-size: 18px;
+  color: blue;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.date-view-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.no-notes-found{
+  font-size: 45px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#deleteNoteButton {
+  background-color: darkred;
+}
+
+#weatherInfo {
+  display: table;
+  table-layout: fixed;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+
+#scrollbar-table {
+
+  display: table;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#addNotes {
+  display: table;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  #addNotes {
+    display: table;
+    table-layout: fixed;
+  }
+}
+
+/*Add personal notes; read-only*/
+
+#dateToAdd {
+  border: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 10px;
+  }
+}
+
+/* Modals */
+.modal-title {
+  text-align: center;
+
+}
+
+.modal-title {
+  font-size: 24px;
+}
+
+.modal-body {
+  background-color: #b3c7f7;
+}
+
+.modal-body #label {
+  font-size: large;
+  font-weight: 400;
+}
+
+.help-block {
+  color: black;
+}
+
+#updateNoteForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#updateNoteForm button[type="submit"] {
+  margin-top: 20px;
+}
+
+.modal-footer .btn-danger {
+  overflow: auto;
+  background-color: darkred;
+}
+
+.modal-footer .btn-default {
+  overflow: auto;
+}
